@@ -45,8 +45,8 @@ class App extends Component {
     return (
       <div>
       <center>
-      <h1>REACT - EXPRESS - MYSQL</h1><br/>  
-      <h1>DATA KARYAWAN</h1>
+      <h2>REACT - EXPRESS - MYSQL</h2><br/>  
+      <h3>DATA KARYAWAN</h3>
       <div className="row">
               <input className="form-control" ref="nama" type="text" placeholder="Masukkan Nama" onInput={()=>{this.klik();}}/><br/>
               <input className="form-control" ref="usia" type="number" placeholder="Masukkan Usia" onInput={()=>{this.klik();}}/><br/>
