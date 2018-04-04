@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+table, td , tr{
+  border: 1px solid white;
+  text-align: center;
+  margin-top: 120px;
+  padding:10px;
+}
+
+h1{
+  text-align: center;
+}
+.kotak table{
+  text-align: center;
+}
+
+/* ------------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+background: rgb(10, 216, 216);
+  background-size:100%;
+}
+h1,button,h4{
+  color:white;
+  font-family: 'arial';
+}
+p{
+  font-family: 'arial';
+}
+
+.form-control
+{
+  height:25px;
+  width: 250px; 
+}
+
+.btn-block{
+  height:25px;
+  width: 250px;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
